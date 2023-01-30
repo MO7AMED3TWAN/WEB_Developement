@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="en"> <!-- Set Language for your Page -->
+
+<head>
+    <meta charset="UTF-8"> <!-- but some specs of page -->
+    <meta author="Name  Of Author" description="Here We Discripe Our Page To Help Other Find Our Page Easly">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+</head>
+
+<!-- <body align="center">  this For All Content of Page In Center -->
+
+<body>
+    <!--Addition From Me-->
+    <center>
+        <div>
+            <b>يستحق لأن تسمعه</b>
+        </div>
+
+        <audio src="1.mp3" controls preload="auto"></audio>
+    </center>
+
+
+    <!-- BOLD -->
+    <b>1 Hello World </b>
+
+    <!-- Italic -->
+    <i>2 Hello World </i>
+
+    <!-- In Qoutes -->
+    <q>3 Hell World </q>
+
+
+    <!-- Mark Part -->
+    <p>4 Hello <mark>World</mark> </p>
+
+    <!--  Super & Sup Script  -->
+    <p>5 Hello World <sup>8</sup> </p>
+    <p>6 Hello World <sub>8</sub> </p>
+
+
+    <!-- Paragraph -->
+    <p> ===========================================================================================================
+        <u><strong>Paragraphs</strong> are the building blocks of papers.</u> Many students define paragraphs in terms
+        of length:
+        <b>A paragraph</b> is a group of at least five sentences, a paragraph is half a page long, etc.
+        <del>reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</del>
+        A paragraph is defined as <q> <b> <i>a group of sentences or a single sentence that forms a unit</i> </b> </q>
+        <mark>(Lunsford and Connors 116).</mark>
+        <b>Ultimately</b>,<s> a paragraph is a sentence or group of sentences that support one main idea.</s>
+        <ins>In this handout</ins>, we will refer to this as the “controlling idea,” because it controls what happens in
+        the rest of the paragraph.
+        ===========================================================================================================
+    </p>
+
+    <!-- Just Header -->
+    <h1>1Header</h1>
+    <h2>2Header</h2>
+    <h3>3Header</h3>
+    <h4>4Header</h4>
+    <h5>5Header</h5>
+    <h6>6Header</h6>
+
+    <!-- -Just Spans (InLine Element) 
+             -Can't Edit Heigh or Wiedth 
+             -Container Of Just TEXT
+        -->
+    <span> First Span </span>
+    <span> Second One </span>
+    <span> Third One </span>
+
+    <!-- -Divs & Paragraph are (Block Element) 
+             -Can Edit Heigh or Wiedth 
+             -Div Container of Any Thing(Text, Image, Span, Description, ... )
+             -Paragraph container Of Text
+        -->
+    <div> 150$ </div>
+    <div> Another Div </div>
+
+    <!-- 
+        Tag Of Insert Link 
+        target="_blank" to Open In New Tab
+    -->
+
+    <div>
+        <a href="https://www.google.com" target="_blank"> Go To Google </a>
+        <p> <b> & </b> </p>
+        <a href="Page2.html" target="_blank"> Go Page 2 </a>
+    </div>
+
+
+    <!-- Tag Of Insert Images -->
+    <!-- <img src="1.jpg" alt="Space Image(Any Description Of Image)" width="650" height="250"> -->
+
+    <div align="center">
+        <a href="https://wa.me/00201551209560" target="_blank">
+            <img src="2.png" alt="Account On Whatts APP" width="50" height="50">
+        </a>
+    </div>
+
+    <div>
+        <img src="3.jpg" alt="SocialMedia" width="400" height="500" usemap="#SocialMedia">
+        <map name="SocialMedia">
+            <area shape="rect" coords="20,30,120,150" alt="Instgrame" href="Insta.html">
+            <area shape="circle" coords="200,250,50" alt="Linked In" href="LinkedIn.html">
+            <area shape="poly" coords="30,350,   270,350 , 270,180 , 370,180, 370,470 ,  30,470" alt="Ti%Te"
+                href="T.html">
+        </map>
+    </div>
+
+    <!-- Create A Table -->
+    <div>
+
+        <img src="0.png" alt="How Create Table In Html">
+
+        <table border="7">
+            <thead bgcolor="Yellow" align="center">
+                <tr>
+                    <td colspan="3"> <b>درجات مادة البرمجة</b> </td>
+                </tr>
+                <tr>
+                    <th colspan="2">الاسم كاملاً</th>
+                    <th>الدرجة</th>
+                </tr>
+            </thead>
+
+            <tfoot bgcolor="Blue" align="center">
+                <tr>
+                    <td colspan="2">المجموع كاملاً</td>
+                    <td>95</td>
+                </tr>
+            </tfoot>
+
+            <tbody bgcolor="red" align="center">
+                <tr>
+                    <td>محمد</td>
+                    <td>السيد</td>
+                    <td rowspan="3">20</td>
+                </tr>
+                <tr>
+                    <td>على</td>
+                    <td>طارق</td>
+                </tr>
+                <tr>
+                    <td>عبدالسلام</td>
+                    <td>عثمان</td>
+                </tr>
+                <tr>
+                    <td>خالد</td>
+                    <td>حبيب</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>محمد</td>
+                    <td>عويس</td>
+                    <td>17</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+    <!--
+        Create A Lists 
+        =<ol> مرقمة
+        =<ul> مينيو
+        =<dd> بدون اى شئ
+    -->
+    <div>
+
+        <b>List With ol</b>
+        <ol type="I">
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+        </ol>
+
+        <b>List With ul</b>
+        <ul type="square">
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+        </ul>
+
+        <b>List With dd & dt</b>
+        <dt>Coffee</dt> <!-- Just For Descripe -->
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt> <!-- Just For Descripe -->
+        <dd>White cold drink</dd>
+
+    </div>
+
+    <!-- Create A Details List -->
+    <details>
+        <summary>Names</summary>
+        <p> <b>Mohamed</b> </p>
+        <p> <b>Aly</b> </p>
+        <p> <b>Amer</b> </p>
+        <img src="0.png">
+    </details>
+
+
+
+</body>
+
+
+
+
+</html>
